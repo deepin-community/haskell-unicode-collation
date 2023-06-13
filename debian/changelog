@@ -1,5 +1,23 @@
-template-repository (1.0-1) unstable; urgency=medium
+haskell-unicode-collation (0.1.3.3-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Sat, 22 Oct 2022 13:48:38 +0300
+
+haskell-unicode-collation (0.1.3.2-3) unstable; urgency=medium
+
+  * Disable RTS -N on non-SMP arches
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Sun, 07 Aug 2022 10:25:05 +0300
+
+haskell-unicode-collation (0.1.3.2-2) unstable; urgency=medium
+
+  * Post-NEW source-only upload
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Sun, 07 Aug 2022 10:19:00 +0300
+
+haskell-unicode-collation (0.1.3.2-1) unstable; urgency=low
 
   * Initial release
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Fri, 05 Aug 2022 20:07:57 +0300
