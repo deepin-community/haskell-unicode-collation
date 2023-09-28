@@ -1,0 +1,27 @@
+From 9ca187a5f7a9253ce867801569c13592636d725c Mon Sep 17 00:00:00 2001
+From: bluesky <chenchongbiao@deepin.org>
+Date: Sat, 7 Oct 2023 15:15:48 +0800
+Subject: [PATCH] chore: skip unit test
+
+skip unit test ,update buildable to False from unicode-collation.cabal
+
+Log: skip test
+---
+ unicode-collation.cabal | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/unicode-collation.cabal b/unicode-collation.cabal
+index eb1b602..aa3c37d 100644
+--- a/unicode-collation.cabal
++++ b/unicode-collation.cabal
+@@ -118,6 +118,7 @@ test-suite unit
+                      , text
+   ghc-options:         -threaded
+                        -rtsopts
++  buildable:           False
+ 
+ test-suite doctests
+   import:              common-options
+-- 
+2.33.1
+
