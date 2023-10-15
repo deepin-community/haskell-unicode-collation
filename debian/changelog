@@ -1,3 +1,9 @@
+haskell-unicode-collation (0.1.3.3-1deepin2) unstable; urgency=medium
+
+  * delete 0001-chore-skip-unit-test.patch
+
+ -- bluesky <chenchongbiao@deepin.org>  Sun, 15 Oct 2023 14:14:27 +0800
+
 haskell-unicode-collation (0.1.3.3-1deepin1) unstable; urgency=medium
 
   * skip unit test ,update buildable to False from unicode-
